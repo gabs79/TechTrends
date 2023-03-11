@@ -115,9 +115,6 @@ def metrics():
 
 # start the application on port 3111
 if __name__ == "__main__":
-    #logging.basicConfig(format='%(asctime)s %(message)s',
-
-    #datefmt='%Y-%m-%d,%H:%M:%S:%f', level=logging.INFO)
     logging.basicConfig(
         level=logging.DEBUG, \
         format='%(levelname)s:%(module)s:%(asctime)s, %(message)s', \
